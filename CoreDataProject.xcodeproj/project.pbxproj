@@ -11,6 +11,10 @@
 		D72FD32829BF48B2001EA8C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FD32729BF48B2001EA8C8 /* ContentView.swift */; };
 		D72FD32A29BF48B4001EA8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72FD32929BF48B4001EA8C8 /* Assets.xcassets */; };
 		D72FD32D29BF48B4001EA8C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72FD32C29BF48B4001EA8C8 /* Preview Assets.xcassets */; };
+		D72FD35629C1D49F001EA8C8 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D72FD35429C1D49F001EA8C8 /* CoreDataProject.xcdatamodeld */; };
+		D72FD35929C1D561001EA8C8 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FD35729C1D561001EA8C8 /* Movie+CoreDataClass.swift */; };
+		D72FD35A29C1D561001EA8C8 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FD35829C1D561001EA8C8 /* Movie+CoreDataProperties.swift */; };
+		D72FD35C29C1DE54001EA8C8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FD35B29C1DE54001EA8C8 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D72FD32729BF48B2001EA8C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D72FD32929BF48B4001EA8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72FD32C29BF48B4001EA8C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D72FD35529C1D49F001EA8C8 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		D72FD35729C1D561001EA8C8 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D72FD35829C1D561001EA8C8 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D72FD35B29C1DE54001EA8C8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D72FD32529BF48B2001EA8C8 /* CoreDataProjectApp.swift */,
+				D72FD35B29C1DE54001EA8C8 /* DataController.swift */,
+				D72FD35729C1D561001EA8C8 /* Movie+CoreDataClass.swift */,
+				D72FD35829C1D561001EA8C8 /* Movie+CoreDataProperties.swift */,
 				D72FD32729BF48B2001EA8C8 /* ContentView.swift */,
+				D72FD35429C1D49F001EA8C8 /* CoreDataProject.xcdatamodeld */,
 				D72FD32929BF48B4001EA8C8 /* Assets.xcassets */,
 				D72FD32B29BF48B4001EA8C8 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72FD35929C1D561001EA8C8 /* Movie+CoreDataClass.swift in Sources */,
+				D72FD35C29C1DE54001EA8C8 /* DataController.swift in Sources */,
+				D72FD35A29C1D561001EA8C8 /* Movie+CoreDataProperties.swift in Sources */,
 				D72FD32829BF48B2001EA8C8 /* ContentView.swift in Sources */,
 				D72FD32629BF48B2001EA8C8 /* CoreDataProjectApp.swift in Sources */,
+				D72FD35629C1D49F001EA8C8 /* CoreDataProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D72FD35429C1D49F001EA8C8 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D72FD35529C1D49F001EA8C8 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = D72FD35529C1D49F001EA8C8 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D72FD31A29BF48B2001EA8C8 /* Project object */;
 }
